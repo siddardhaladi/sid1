@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height:100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.image{
+    height: 70vh;
+    width: 40vw;
+}
+.forum{
+    border-radius: 2px solid rgb(87, 87, 209);
+    background-color: rgb(170, 170, 241);
+    height: 70vh;
+    width:40vw;
+    padding: 3rem 2rem;
+    margin-right: 0px;
+}
+h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 10vw;
+}
+p{
+    font-size: 1.2rem;
+    padding-left: 8vw;
+}
+label{
+    font-size: 1.2rem;
+    color:gray;
+}
+input{
+    line-height: 3;
+    border-radius: 6px;
+    width: 30vw;
+}
+
+.psd{
+    text-align: end;
+    padding-right: 4rem;
+}
+button{
+    line-height: 3;
+    border-radius: 10px;
+    width: 30vw;
+    background-color: rgb(81, 81, 216);
+    border: 1px solid rgb(170, 170, 241);
+    font-size: 1.3rem;
+}
+.container{
+    display: flex;
+    height:100vh;
+    padding:10vh 10vw;
+    gap:0rem;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:786px){
+    .container{
+        display: flex;;
+        flex-direction: column;
+        width:fit-content;
+    }
+    .forum{
+        width:100%;
+        max-width:none;
+        height:50vh;
+        font-size: 1rem;
+    }
+    .image{
+        width:100%;
+        max-width: none;
+        height:50vh;
+    }
+}
